@@ -32,7 +32,7 @@
             </p>
           </ion-label>
         </ion-item>
-        <ion-item :button="true" @click="floatingactionbuttonScreen()">
+        <ion-item :button="true" @click="float()">
           <ion-label>
             <h2 class="text-bold">Floating</h2>
             <p>
@@ -110,8 +110,8 @@ export default defineComponent({
     async reorderScreen() {
       this.$router.push('/reorder');
     },
-    async floatingactionbuttonScreen() {
-      this.$router.push('/float');
+    async float() {
+      this.$router.push('/tabs/float');
     },
     async swiper() {
       this.$router.push('/tabs/swiper');

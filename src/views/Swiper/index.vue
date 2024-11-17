@@ -13,7 +13,7 @@
         <swiper-slide>
           <img
             class="banner"
-            src="https://bobo.muzli.cloud/1722592917233-Selling%20templates%C2%A0.png?format=600:450"
+            src="https://images.examples.com/wp-content/uploads/2018/09/63-1024x681.jpg"
             alt="image 1"
           />
         </swiper-slide>
@@ -27,7 +27,7 @@
         <swiper-slide>
           <img
             class="banner"
-            src="https://cdn.kwork.com/files/portfolio/t3/55/aaea459dc279378fccaedbed6a72ec8cbbc80190-1708857222.jpg"
+            src="https://images.examples.com/wp-content/uploads/2018/06/Business-Roll-Up-Banner-Example.jpg"
             alt="image 3"
           />
         </swiper-slide>

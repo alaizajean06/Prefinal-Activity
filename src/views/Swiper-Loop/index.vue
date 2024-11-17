@@ -55,12 +55,12 @@ export default defineComponent({
     return {
       swiper: {} as any,
       banners: [
-        'https://i.pinimg.com/736x/b3/94/2e/b3942eec07dd4c4bab3bf4b6841f0523.jpg',
+        'https://static.vecteezy.com/system/resources/previews/000/272/740/original/vector-colorful-circle-banner-template-horizontal-advertising-business-banner.jpg',
         'https://cdn.kwork.com/pics/t3/26/31846904-65db133e3bd44.jpg',
-        'https://cdn.prod.website-files.com/5b5729421aca332c60585f78/6181a854fe9af42fcf3acd8d_maje-flash-sale-banner-example.png',
+        'https://i.pinimg.com/originals/fb/3a/45/fb3a457cb762c268aa83a73047d5b3d9.jpg',
         'https://cdn.kwork.com/files/portfolio/t3/90/45dbbf8bd3955a17ecfc6c7927719ae5200ed098-1708857109.jpg',
-        'https://cdn.kwork.com/files/portfolio/t0/53/606e22e8d0b13b6bf35822dc24b65ad9461fe568-1708848370.jpg',
-        'https://cdn.kwork.com/files/portfolio/t3/55/aaea459dc279378fccaedbed6a72ec8cbbc80190-1708857222.jpg',
+        'https://designshifu.com/wp-content/uploads/2022/11/Ad-banner-design-ideas-examples-that-get-the-maximum-clicks.jpg',
+        'https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/706c66103003811.5f43ca98674fe.jpg',
       ],
     };
   },
