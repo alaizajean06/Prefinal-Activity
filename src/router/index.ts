@@ -20,17 +20,17 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: '/card',
     name: 'card',
-    component: () => import('@/views/home/Cards/index.vue'),
+    component: () => import('@/views/Cards/index.vue'),
   },
   {
     path: '/modal',
     name: 'modal',
-    component: () => import('@/views/home/modal/index.vue'),
+    component: () => import('@/views/modal/index.vue'),
   },
   {
     path: '/reorder',
     name: 'reorder',
-    component: () => import('@/views/home/reorder/index.vue'),
+    component: () => import('@/views/reorder/index.vue'),
   },
 
   {
@@ -43,7 +43,7 @@ const routes: Array<RouteRecordRaw> = [
       },
       {
         path: 'float',
-        component: () => import('@/views/home/floatingactionbutton/index.vue'),
+        component: () => import('@/views/floatingactionbutton/index.vue'),
       },
       {
         path: 'swiper',
@@ -56,6 +56,18 @@ const routes: Array<RouteRecordRaw> = [
       {
         path: 'localStorage',
         component: () => import('@/views/Local-Storage/index.vue'),
+      },
+      {
+        path: 'map',
+        component: () => import('@/views/map/index.vue'),
+      },
+      {
+        path: 'geolocation',
+        component: () => import('@/views/geolocation/index.vue'),
+      },
+      {
+        path: 'camera',
+        component: () => import('@/views/camera/index.vue'),
       },
     ],
   },

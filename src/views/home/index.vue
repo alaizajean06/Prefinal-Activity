@@ -62,6 +62,24 @@
             <p>Learn how to implement device storage</p>
           </ion-label>
         </ion-item>
+        <ion-item :button="true" @click="map()">
+          <ion-label>
+            <h2 class="text-bold">Act 4 : Map Implemention</h2>
+            <p>Learn how to implement map in ionic</p>
+          </ion-label>
+        </ion-item>
+        <ion-item :button="true" @click="geolocation()">
+          <ion-label>
+            <h2 class="text-bold">Act 5 : GPS| Geolocation</h2>
+            <p>Get Latitude and Longitude</p>
+          </ion-label>
+        </ion-item>
+        <ion-item :button="true" @click="camera()">
+          <ion-label>
+            <h2 class="text-bold">Act 6 : Camera Implementation</h2>
+            <p>Learn how to implement camera in ionic</p>
+          </ion-label>
+        </ion-item>
       </ion-list>
     </ion-content>
   </ion-page>
@@ -83,6 +101,7 @@ import {
   IonCardHeader,
   IonCardTitle,
 } from '@ionic/vue';
+import { camera, map } from 'ionicons/icons';
 
 export default defineComponent({
   name: 'IndexScreen',
@@ -121,6 +140,15 @@ export default defineComponent({
     },
     async localstorage() {
       this.$router.push('/tabs/localStorage');
+    },
+    async map() {
+      this.$router.push('/tabs/map');
+    },
+    async geolocation() {
+      this.$router.push('/tabs/geolocation');
+    },
+   async camera() {
+      this.$router.push('/tabs/camera');
     },
   },
 });
