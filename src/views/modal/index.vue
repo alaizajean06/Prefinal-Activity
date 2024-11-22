@@ -51,7 +51,7 @@ import {
   modalController,
 } from '@ionic/vue';
 
-import Modal from '@/views/home/modal/modal.vue';
+import Modal from '@/views/modal/modal.vue';
 import { ref, defineComponent } from 'vue';
 import { IonBackButton, IonButtons, IonRouterOutlet } from '@ionic/vue';
 import { menu, home, person } from 'ionicons/icons';
